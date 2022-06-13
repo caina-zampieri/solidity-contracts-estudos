@@ -10,6 +10,7 @@ contract ParicipantesCadastro {
     }
 
     mapping(uint256 => Pessoa) public Pessoas;
+
     event votedEvent(uint256 indexed _participanteId);
     uint256 public participanteConut;
 
